@@ -19,7 +19,7 @@ public class Main {
         user.saveUser("Эрнест", "Хемингуэй", (byte) 62);
         user.removeUserById(1);
         System.out.println(user.getAllUsers());
-        user.cleanUsersTable();
-        user.dropUsersTable();
+//        user.cleanUsersTable();
+//        user.dropUsersTable();
     }
 }
