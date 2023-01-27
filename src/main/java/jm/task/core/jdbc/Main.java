@@ -12,13 +12,13 @@ public class Main {
 
 
         UserService user = new UserServiceImpl();
-        user.createUsersTable();
-        user.saveUser("Нил", "Гейман", (byte) 62);
-        user.saveUser("Лю", "Цысинь", (byte) 59);
-        user.saveUser("Виктор", "Пелевин", (byte) 60);
-        user.saveUser("Эрнест", "Хемингуэй", (byte) 62);
-        user.removeUserById(1);
-        System.out.println(user.getAllUsers());
+//        user.createUsersTable();
+//        user.saveUser("Нил", "Гейман", (byte) 62);
+//        user.saveUser("Лю", "Цысинь", (byte) 59);
+//        user.saveUser("Виктор", "Пелевин", (byte) 60);
+//        user.saveUser("Эрнест", "Хемингуэй", (byte) 62);
+        user.removeUserById(3);
+//        System.out.println(user.getAllUsers());
 //        user.cleanUsersTable();
 //        user.dropUsersTable();
     }
